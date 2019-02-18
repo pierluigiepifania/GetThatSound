@@ -1,0 +1,77 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<dataset>
+  				
+  <utente	user_id="1"
+  			utente="Adriano"
+  			password="$31$16$_EmJdR1czKxLNO_c6qr4Tx2UNPP9SINmRBeRZqj2ZfM"
+  			nome="Adriano"
+  			cognome="Molli"
+  			email="molliadriano@gmail.com"
+            ruolo="standard"/>
+  <utente	user_id="2"
+  			utente="luigi"
+  			password="$31$16$-LFiZwvfA1CicVfo-eJ24aLohPHXKkkbOoIZ8nTUBf4"
+  			nome="Luigi"
+  			cognome="Epifania"
+  			email="luigiepifania@gmail.com"
+            ruolo="standard"/>
+  <utente	user_id="3"
+  			utente="Manager"
+  			password="$31$16$44kKpRLAUCVxGaHEoawyc8FVyePN_xeMrTp5_QSEph8"
+  			nome="Claudio"
+  			cognome="Rossi"
+  			email="claudiorossi@yahoo.it"
+            ruolo="manager"/>
+  <utente	user_id="4"
+  			utente="Admin"
+  			password="$31$16$gGdblDijqO9G48QZRpjqEHZP_xxNSsYYDL4u3ZNaAMw"
+  			nome="Dario"
+  			cognome="Bianchi"
+  			email="dariobianchi@libero.it"
+            ruolo="admin"/>
+
+  <brano    brano_id="1"
+            titolo="Dum Surfer"
+            artista="King Krule"
+            album="The OOZ"
+            path="C:\audio\King_Krule\The_OOZ\Dum_Surfer.mp3"
+            user_id="1"/>
+  <brano    brano_id="2"
+            titolo="Unluck"
+            artista="James Blake"
+            album="James Blake"
+            path="C:\audio\James_Blake\James_Blake\Unluck.mp3"
+            user_id="1"/>
+  <brano    brano_id="3"
+            titolo="I Shot The Sheriff"
+            artista="Bob Marley"
+            album="Legend"
+            path="C:\audio\Bob_Marley\Legend\I_Shot_The_Sheriff.mp3"
+            user_id="2"/>
+  <brano    brano_id="4"
+            titolo="Bubble"
+            artista="Ellen Allien"
+            album="Orchestra of Bubbles"
+            path="C:\audio\Ellen_Allien\Orchestra_of_Bubbles\Bubble.mp3"
+            user_id="2"/>
+            
+  <brano_salvato    brano_salvato_id="1"
+  					brano_id="1"
+                    user_id="1"/>
+  <brano_salvato    brano_salvato_id="2"
+  					brano_id="2"
+                    user_id="2"/>
+  
+  <brano_stallo     brano_stallo_id="1"
+                    titolo="Parallel Jalebi"
+                    artista="Four Tet"
+                    album="Beautiful Rewind"
+                    path="C:\audio\Four_Tet\Beautiful_Rewind\Parallel_Jalebi.mp3"
+                    user_id="1"/> 
+  <brano_stallo     brano_stallo_id="2"
+                    titolo="Genesis"
+                    artista="Grimes"
+                    album="Visions"
+                    path="C:\audio\Grimes\Visions\Genesis.mp3"
+                    user_id="2"/>               
+</dataset>
