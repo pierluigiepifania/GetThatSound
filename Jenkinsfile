@@ -14,7 +14,7 @@ pipeline{
 			steps {
 				script {
 					def scanner = tool 'sqrscanner'
-					withSonarQubeEnv ('server-sonarqube') {
+					withSonarQubeEnv ('server-sonarqube-gts') {
 						sh "${scannerHome}/bin/sonar-scanner -X"
 					}
 				}
